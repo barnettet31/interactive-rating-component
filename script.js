@@ -21,7 +21,6 @@ buttonContainer.addEventListener("click", (e) => {
 });
 submitButton.addEventListener("click", () => {
   if (window.rating) return toggleDisplay();
-  alert("Please Select A rating");
 });
 
 function toggleDisplay() {
